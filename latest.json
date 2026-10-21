@@ -1,7 +1,7 @@
 {
   "schema": "pcc-public-release-v1",
-  "version": "1.1.0",
-  "notes": "PCC 1.1.0: ядро Project Manager остаётся открытым после запуска проекта; можно открыть несколько проектов параллельно и продолжать пользоваться кнопками менеджера, включая AI-мост. Сохранены исправления прогресса скачивания и обновления PCC 1.0.11. Поддерживается обновление управляемых проектов с 1.0.11. Подпись установщика PCC TEST ONLY не является публично доверенной. Запуск финального Setup в чистой Windows Sandbox заблокирован политикой Application Control; реальная установка и визуальная приёмка остаются открытыми. Политики Windows, TLS и HTTPS не изменялись.",
-  "installer_url": "https://github.com/Ksarno/PCC-updates/releases/download/v1.1.0/PCC-Setup-1.1.0.exe",
-  "sha256": "befcf576606c6a1e63f52d9288c3964bc369c4a6a7619919d945e393d2d8af00"
+  "version": "1.1.1",
+  "notes": "PCC 1.1.1 TEST ONLY: безопасная диагностика AI-моста Desktop Commander (worker/child PID, exit code, тайминги, подтверждённые коды ошибок), ограниченные отчёты без токенов и исправления утечек исключений. Проверено: 178 регрессионных тестов без ошибок, 14 тестов диагностики; подписано PCC TEST ONLY (не публично доверенная подпись). НЕ ПРОВЕРЕНО: реальное обновление 1.1.0->1.1.1, подключение DC 0.2.52; независимое review отсутствует. Не отключайте Windows Application Control. Это TEST ONLY, не production-acceptance.",
+  "installer_url": "https://github.com/Ksarno/PCC-updates/releases/download/v1.1.1/PCC-Setup-1.1.1.exe",
+  "sha256": "840c4952dcc3ec955cd25cf036b555aeb0bf4735f41dbcf3f8fa58b05126905b"
 }
